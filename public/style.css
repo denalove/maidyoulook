@@ -1,0 +1,183 @@
+@charset "utf-8";
+body, a, p {
+	font-family: Arial, Helvetica, 'sans-serif';
+}
+#container {
+	height: 100%;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+	float: left;
+	height: 150px;
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(194,217,231,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(194,217,231,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(194,217,231,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(194,217,231,1.00) 100%);
+}
+#main-slider {
+	float: left;
+	height: 200px;
+	width: 75%;
+	margin-right: 12.5%;
+	margin-left: 12.5%;
+	background-image: url(images/light_purple_stars2.jpg), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(175,154,246,1.00) 100%);
+	background-image: url(images/light_purple_stars2.jpg), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(175,154,246,1.00) 100%);
+	background-image: url(images/light_purple_stars2.jpg), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(175,154,246,1.00) 100%);
+	background-image: url(images/light_purple_stars2.jpg), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(175,154,246,1.00) 100%);
+}
+#slider-text {
+	margin-top: 5%;
+	margin-left: 2%;
+	float: left;
+	width: 20%;
+	height: 20%;
+	color: #1468EE;
+	font-weight: lighter;
+}
+#main-slider img {
+	width: 55%;
+	height: 200px;
+	margin-left: 23%;
+	float: left;
+	vertical-align: text-top;
+}
+#sidebar {
+	float: left;
+	height: 500px;
+	width: 23%;
+	margin-top: 20px;
+	margin-left: 12.5%;
+}
+#main-content {
+	float: left;
+	height: auto;
+	width: 50%;
+	margin-top: 20px;
+	margin-right: 12.5%;
+	margin-left: 2%;
+	background-image: url(light_purple_stars2.jpg);
+	background-repeat: repeat;
+}
+#footer {
+	clear: both;
+	float: left;
+	width: 75%;
+	margin-top: 20px;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	text-align: center;
+}
+#nav-bar {
+	float: left;
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#nav-bar a {
+	padding-left: 18px;
+	padding-right: 18px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	text-shadow: 0px 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #609BFB;
+	/* [disabled]font-family: Arial; */
+}
+
+#sidebar a  {
+	text-decoration: none;
+	display: block;
+	border: 1px solid #C9C0C1;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(199,220,233,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(199,220,233,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(199,220,233,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(199,220,233,1.00) 100%);
+	color: #7095ED;
+	text-align: left;
+	border-radius: 10px;
+	margin-top: 30px;
+	text-shadow: 1px 0px #000000;
+	font-weight: bold;
+	margin-left: 2px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 10%;
+	width: 95%;
+	margin-bottom: 30px;
+	padding-bottom: 5px;
+	vertical-align: middle;
+	letter-spacing: 1px;
+	font-size: 17px;
+}
+#sidebar a img {
+	margin-right: 15px;
+	padding-left: 0px;
+	padding-right: 2px;
+	vertical-align: middle;
+}
+#container #header img {
+	margin-left: 12.5%;
+	margin-right: 50%;
+	margin-top: 1.5%;
+}
+#header-phone {
+	float: left;
+	height: 40%;
+	width: 18%;
+	margin-right: 12.5%;
+	text-align: right;
+	margin-left: 70%;
+	
+	
+	
+}
+#main-content h1 {
+	text-align: left;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	font-family: alex-brush;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 45px;
+	color: #7095ED;
+}
+#main-content p {
+	margin-top: 25px;
+	margin-left: 20px;
+	color: #7095ED;
+}
+.imagine {
+	font-size: 45px;
+	font-family: alex-brush;
+	font-style: normal;
+	font-weight: 400;
+}
+#form1 p label {
+	color: #4B4646;
+}
+#form1 p input {
+	color: #C2D9E7;
+}
+#main-content #form1 table {
+	color: #706666;
+	margin-left: 15px;
+
+}
+tr td label {
+	color: #645C5C;
+}
+#contact-info {
+	color: #5E5354;
+	margin-left: 15px;
+}
